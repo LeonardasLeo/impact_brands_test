@@ -1,0 +1,34 @@
+.container__faq{
+  background-color: $gray;
+  padding: $space-y-30;
+}
+
+.faq__header{
+  font-size: $medium-font;
+  font-weight: $font-bold;
+  text-align: center;
+  margin: $margin-10;
+}
+
+.question{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: $padding-10;
+  font-size: $small-font;
+  font-weight: $font-bold;
+  cursor: pointer;
+  div{
+    pointer-events: none;
+    width: 279px;
+  }
+  i{
+    pointer-events: none;
+  }
+}
+
+.answer{
+  display: none;
+  padding: $padding-10;
+  width: 295px;
+}

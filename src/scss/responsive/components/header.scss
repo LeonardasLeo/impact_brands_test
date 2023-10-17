@@ -1,0 +1,12 @@
+@media (min-width: $medium-screen) and (max-width: $large-screen) {
+  .header{
+    background-image: url("../../../../assets/main_img_tablet.jpg");
+    height: 1024px;
+  }
+}
+
+@media (min-width: $large-screen) {
+  .header{
+    background-image: url("../../../../assets/main_img_desktop.svg");
+  }
+}

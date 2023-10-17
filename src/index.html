@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+          integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="App.css">
+    <script src="index.js" defer></script>
+    <script src="components/box.js" defer></script>
+    <script src="components/subscriptionBenefit.js" defer></script>
+    <script src="components/singleIngredient.js" defer></script>
+    <script src="components/processStep.js" defer></script>
+    <script src="components/arrow.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+</head>
+<body>
+<nav class="navbar">
+    <div class="hamburger">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+    <div class="nav__routes">
+        <span>shop</span>
+        <span>mission</span>
+    </div>
+    <div class="logo">LOGO</div>
+</nav>
+<header class="header">
+    <div class="background"></div>
+    <div class="header__text">new year, new "you" with [product name]</div>
+    <button class="header__button">try [product name]</button>
+</header>
+<section class="container__icon">
+    <custom-box icon="../assets/shield_heart_solid.svg" message="Improves sleep"></custom-box>
+    <custom-box icon="../assets/shield_icon.svg" message="Boosts immune system"></custom-box>
+    <custom-box icon="../assets/hand_icon.svg" message="Enhances strength"></custom-box>
+    <custom-box icon="../assets/gut_icon.svg" message="Improves Digestion"></custom-box>
+</section>
+<section class="container__subscription">
+    <div class="subscribe">subscribe & save</div>
+    <div class="container__subscription__benefits">
+        <subscription-benefit icon="../assets/loop.svg" message="delivery every 30 days"></subscription-benefit>
+        <subscription-benefit icon="../assets/percent_icon.svg" message="best value per box"></subscription-benefit>
+        <subscription-benefit icon="../assets/x_icon.svg" message="no commitment, cancel anytime"></subscription-benefit>
+    </div>
+</section>
+<section class="container__benefits">
+    <div class="benefits__header">Performance nutrition and healthy transformation made simple:</div>
+    <div class="container__benefit__list">
+        <div class="benefit">
+            <img src="../assets/fire.svg" alt="" loading="lazy">
+            <div>Recharged <b>metabolism</b> to stay in peak shape</div>
+        </div>
+        <div class="benefit">
+            <img src="../assets/bolt.svg" alt="" loading="lazy">
+            <div>Enjoy jitter-free <b>energy</b> to tackle your busy schedule</div>
+        </div>
+        <div class="benefit">
+            <img src="../assets/man_running.svg" alt="" loading="lazy">
+            <div>Enhance <b>endurance, performance</b>, and exercise <b>recovery</b></div>
+        </div>
+        <div class="benefit">
+            <img src="../assets/shield_virus.svg" alt="" loading="lazy">
+            <div>Strengthen your <b>immune health</b> to stay on your game</div>
+        </div>
+        <div class="benefit">
+            <img src="../assets/double_check.svg" alt="" loading="lazy">
+            <div><b>30 sec habit.</b> Mixes in any beverage fast and easy</div>
+        </div>
+        <div class="benefit">
+            <img src="../assets/thumbs_up.svg" alt="" loading="lazy">
+            <div><b>Tastes amazing!</b> No bitterness, gritty, or clumpy texture</div>
+        </div>
+    </div>
+</section>
+<section class="container__quality">
+    <div class="container__quality__wrapper">
+        <img src="https://joesgaragecoffee.com/content/uploads/2018/07/usda-organic-logo.png" alt="">
+        <div>only exceptional USDA certified organic sustainable sourced ingredients qualify</div>
+    </div>
+</section>
+<section class="container__product__blend">
+    <div class="product__blend__wrapper">
+        <div class="product__blend__header">
+            <div>[product name]</div>
+            <div>blend</div>
+        </div>
+        <div class="product__blend__content">
+            <div>
+                <div class="product__blend__header--second">Metabolism boosting</div>
+                <div class="product__blend__text">
+                    Metabolism Boosting These powerful superfoods ignite your metabolism and reduce bloating. They improve
+                    digestion
+                    and deliver the energy you need to get things done. Main Organic Ingiridents:
+                </div>
+                <div class="ingredients__text">Main Organic ingredients:</div>
+            </div>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="container__ingredients">
+                            <single-ingredient
+                                    image="https://cdn.shopify.com/s/files/1/0566/8624/8051/files/acai_berry.png?v=1669613777"
+                                    message="organic acai berry"></single-ingredient>
+                            <single-ingredient
+                                    image="https://afyaa.com/images/afyaa-arafit/Acacia-Gum-3.png"
+                                    message="organic acacia gum"></single-ingredient>
+                            <single-ingredient
+                                    image="https://www.cylonies.com/storage/cinnamon/177891-cinnamon-hq-image-free-800x800-540x600.png"
+                                    message="organic ceylon cinnamon bark"></single-ingredient>
+                            <single-ingredient
+                                    image="https://mlqsu18d2ibo.i.optimole.com/cb:y1Qw~4e43b/w:auto/h:auto/q:mauto/f:best/https://www.9amtea.in/wp-content/uploads/2020/02/Loose-Tea-Subhero-1.png"
+                                    message="organic green tea"></single-ingredient>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="container__ingredients">
+                            <single-ingredient
+                                    image="https://cdn.shopify.com/s/files/1/0566/8624/8051/files/acai_berry.png?v=1669613777"
+                                    message="organic acai berry"></single-ingredient>
+                            <single-ingredient
+                                    image="https://afyaa.com/images/afyaa-arafit/Acacia-Gum-3.png"
+                                    message="organic acacia gum"></single-ingredient>
+                            <single-ingredient
+                                    image="https://www.cylonies.com/storage/cinnamon/177891-cinnamon-hq-image-free-800x800-540x600.png"
+                                    message="organic ceylon cinnamon bark"></single-ingredient>
+                            <single-ingredient
+                                    image="https://mlqsu18d2ibo.i.optimole.com/cb:y1Qw~4e43b/w:auto/h:auto/q:mauto/f:best/https://www.9amtea.in/wp-content/uploads/2020/02/Loose-Tea-Subhero-1.png"
+                                    message="organic green tea"></single-ingredient>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="container__ingredients">
+                            <single-ingredient
+                                    image="https://cdn.shopify.com/s/files/1/0566/8624/8051/files/acai_berry.png?v=1669613777"
+                                    message="organic acai berry"></single-ingredient>
+                            <single-ingredient
+                                    image="https://afyaa.com/images/afyaa-arafit/Acacia-Gum-3.png"
+                                    message="organic acacia gum"></single-ingredient>
+                            <single-ingredient
+                                    image="https://www.cylonies.com/storage/cinnamon/177891-cinnamon-hq-image-free-800x800-540x600.png"
+                                    message="organic ceylon cinnamon bark"></single-ingredient>
+                            <single-ingredient
+                                    image="https://mlqsu18d2ibo.i.optimole.com/cb:y1Qw~4e43b/w:auto/h:auto/q:mauto/f:best/https://www.9amtea.in/wp-content/uploads/2020/02/Loose-Tea-Subhero-1.png"
+                                    message="organic green tea"></single-ingredient>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <div class="add__to__cart__button">
+                    add to cart
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="container__process">
+    <div class="process__header">meticulous methodical process</div>
+    <div class="process__content">
+        <img class="vector" src="../assets/Vector.svg" alt="">
+        <process-step icon="../assets/hand_icon.svg" title="Mission"
+                      message="Our team of researchers are working around the clock to uncover the best performance and
+                health-boosting superfoods on the planet. We do the homework so you don’t have to. Each superfood is
+                supported by strong clinical studies.">
+        </process-step>
+        <custom-arrow></custom-arrow>
+        <process-step icon="../assets/exclamation.svg" title="The problem" right="true"
+                      message="our advisory panel reviews all of the scientific research in detail. Each ingredient must pass the
+                rigorous approval process. Once approved, only then do our formulas move on to production.">
+        </process-step>
+        <custom-arrow left="true"></custom-arrow>
+        <process-step icon="../assets/heart.svg" title="That isn't therapeutic" message="Production takes place in our GMP-compliant, state of the art manufacturing
+                facility. Once again, only using 100% organic ingredients that have been verified by the USDA.">
+        </process-step>
+        <custom-arrow></custom-arrow>
+        <process-step icon="../assets/man_running.svg" title="The result" right="true"
+                      message="Getting our formulas into the hands of people who need it most and transforming lives for the better. We
+                believe in improving humankind by improving human performance. And that starts with nourishing your body
+                with the right fuel.">
+        </process-step>
+    </div>
+</section>
+<section class="container__faq">
+    <div class="faq__header">FAQs</div>
+    <div class="container__question">
+        <div>
+            <div class="question">
+                <div>
+                    What are the Effective ingredients in [product name]?
+                </div>
+                <i class="fas fa-chevron-down icon--smallest"></i>
+            </div>
+            <div class="answer">
+                <div>Pellentesque vitae convallis quam, in ultricies leo:</div>
+                <br>
+                <div><b>Lorem ipsum dolor sit ame:</b></div>
+                <div>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc gravida sollicitudin diam, vestibulum
+                    placerat nisl finibus ut. Duis ac pulvinar justo. Aliquam mi nisl, gravida eget suscipit non,
+                    sodales in
+                    tortor. Nam purus sem, blandit non justo ac, ornare tempor quam. Morbi pharetra vehicula ornare.
+                    Proin
+                    gravida turpis orci, sit amet sollicitudin mi rutrum nec.
+                </div>
+                <br>
+                <div><b>Curabitur gravida ullamcorper dui:</b></div>
+                <div>
+                    Pellentesque - tincidunt efficitur suscipit. Aliquam commodo id est eu cursus. Mauris ut elit quis
+                    nunc
+                    eleifend egestas in ac lorem.
+                    Pellentesque - vitae convallis quam, in ultricies leo. Curabitur gravida ullamcorper dui. Aliquam
+                    velit
+                    arcu, ultrices nec mauris a, vehicula fermentum nisi.
+                    Donec commodo - nisl at magna congue volutpat. Suspendisse sed nulla ultricies, elementum risus
+                    venenatis, eleifend sem. Vestibulum rutrum ut lectus id dignissim.
+                    Curabitur eros diam - bibendum in ipsum ut, posuere suscipit magna. Maecenas at congue purus, vel
+                    facilisis odio. Praesent scelerisque, ipsum vel ultricies congue, odio turpis pharetra tellus, ac
+                    auctor
+                    orci tortor volutpat lectus.
+                    Vestibulum tempor - ipsum et nibh mattis, sed volutpat dui bibendum.
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="question">
+                <div>
+                    Other question?
+                </div>
+                <i class="fas fa-chevron-down icon--smallest"></i>
+            </div>
+            <div class="answer">
+                <div>Pellentesque vitae convallis quam, in ultricies leo:</div>
+                <br>
+                <div><b>Lorem ipsum dolor sit ame:</b></div>
+                <div>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc gravida sollicitudin diam, vestibulum
+                    placerat nisl finibus ut. Duis ac pulvinar justo. Aliquam mi nisl, gravida eget suscipit non,
+                    sodales in
+                    tortor. Nam purus sem, blandit non justo ac, ornare tempor quam. Morbi pharetra vehicula ornare.
+                    Proin
+                    gravida turpis orci, sit amet sollicitudin mi rutrum nec.
+                </div>
+                <br>
+                <div><b>Curabitur gravida ullamcorper dui:</b></div>
+                <div>
+                    Pellentesque - tincidunt efficitur suscipit. Aliquam commodo id est eu cursus. Mauris ut elit quis
+                    nunc
+                    eleifend egestas in ac lorem.
+                    Pellentesque - vitae convallis quam, in ultricies leo. Curabitur gravida ullamcorper dui. Aliquam
+                    velit
+                    arcu, ultrices nec mauris a, vehicula fermentum nisi.
+                    Donec commodo - nisl at magna congue volutpat. Suspendisse sed nulla ultricies, elementum risus
+                    venenatis, eleifend sem. Vestibulum rutrum ut lectus id dignissim.
+                    Curabitur eros diam - bibendum in ipsum ut, posuere suscipit magna. Maecenas at congue purus, vel
+                    facilisis odio. Praesent scelerisque, ipsum vel ultricies congue, odio turpis pharetra tellus, ac
+                    auctor
+                    orci tortor volutpat lectus.
+                    Vestibulum tempor - ipsum et nibh mattis, sed volutpat dui bibendum.
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="question">
+                <div>
+                    Other question?
+                </div>
+                <i class="fas fa-chevron-down icon--smallest"></i>
+            </div>
+            <div class="answer">
+                <div>Pellentesque vitae convallis quam, in ultricies leo:</div>
+                <br>
+                <div><b>Lorem ipsum dolor sit ame:</b></div>
+                <div>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc gravida sollicitudin diam, vestibulum
+                    placerat nisl finibus ut. Duis ac pulvinar justo. Aliquam mi nisl, gravida eget suscipit non,
+                    sodales in
+                    tortor. Nam purus sem, blandit non justo ac, ornare tempor quam. Morbi pharetra vehicula ornare.
+                    Proin
+                    gravida turpis orci, sit amet sollicitudin mi rutrum nec.
+                </div>
+                <br>
+                <div><b>Curabitur gravida ullamcorper dui:</b></div>
+                <div>
+                    Pellentesque - tincidunt efficitur suscipit. Aliquam commodo id est eu cursus. Mauris ut elit quis
+                    nunc
+                    eleifend egestas in ac lorem.
+                    Pellentesque - vitae convallis quam, in ultricies leo. Curabitur gravida ullamcorper dui. Aliquam
+                    velit
+                    arcu, ultrices nec mauris a, vehicula fermentum nisi.
+                    Donec commodo - nisl at magna congue volutpat. Suspendisse sed nulla ultricies, elementum risus
+                    venenatis, eleifend sem. Vestibulum rutrum ut lectus id dignissim.
+                    Curabitur eros diam - bibendum in ipsum ut, posuere suscipit magna. Maecenas at congue purus, vel
+                    facilisis odio. Praesent scelerisque, ipsum vel ultricies congue, odio turpis pharetra tellus, ac
+                    auctor
+                    orci tortor volutpat lectus.
+                    Vestibulum tempor - ipsum et nibh mattis, sed volutpat dui bibendum.
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="question">
+                <div>
+                    Other question?
+                </div>
+                <i class="fas fa-chevron-down icon--smallest"></i>
+            </div>
+            <div class="answer">
+                <div>Pellentesque vitae convallis quam, in ultricies leo:</div>
+                <br>
+                <div><b>Lorem ipsum dolor sit ame:</b></div>
+                <div>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc gravida sollicitudin diam, vestibulum
+                    placerat nisl finibus ut. Duis ac pulvinar justo. Aliquam mi nisl, gravida eget suscipit non,
+                    sodales in
+                    tortor. Nam purus sem, blandit non justo ac, ornare tempor quam. Morbi pharetra vehicula ornare.
+                    Proin
+                    gravida turpis orci, sit amet sollicitudin mi rutrum nec.
+                </div>
+                <br>
+                <div><b>Curabitur gravida ullamcorper dui:</b></div>
+                <div>
+                    Pellentesque - tincidunt efficitur suscipit. Aliquam commodo id est eu cursus. Mauris ut elit quis
+                    nunc
+                    eleifend egestas in ac lorem.
+                    Pellentesque - vitae convallis quam, in ultricies leo. Curabitur gravida ullamcorper dui. Aliquam
+                    velit
+                    arcu, ultrices nec mauris a, vehicula fermentum nisi.
+                    Donec commodo - nisl at magna congue volutpat. Suspendisse sed nulla ultricies, elementum risus
+                    venenatis, eleifend sem. Vestibulum rutrum ut lectus id dignissim.
+                    Curabitur eros diam - bibendum in ipsum ut, posuere suscipit magna. Maecenas at congue purus, vel
+                    facilisis odio. Praesent scelerisque, ipsum vel ultricies congue, odio turpis pharetra tellus, ac
+                    auctor
+                    orci tortor volutpat lectus.
+                    Vestibulum tempor - ipsum et nibh mattis, sed volutpat dui bibendum.
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>

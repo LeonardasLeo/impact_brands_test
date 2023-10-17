@@ -1,0 +1,32 @@
+body{
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+@import "scss/variables/colors";
+@import "scss/variables/fonts";
+@import "scss/mixins";
+@import "scss/variables/space";
+@import "scss/variables/other";
+
+@import "scss/components/header";
+@import "scss/components/navbar";
+@import "scss/components/subscription";
+@import "scss/components/benefits";
+@import "scss/components/product-blend";
+@import "scss/components/process";
+@import "scss/components/faqs";
+@import "scss/components/swiper";
+@import "scss/components/icons";
+@import "scss/components/quality";
+@import "scss/components/box";
+
+@import "scss/responsive/breakpoints";
+@import "scss/responsive/components/navbar";
+@import "scss/responsive/components/header";
+@import "scss/responsive/components/subscription";
+@import "scss/responsive/components/benefits";
+@import "scss/responsive/components/quality";
+@import "scss/responsive/components/product-blend";
+@import "scss/responsive/components/process";
+@import "scss/responsive/components/box";
+@import "scss/responsive/components/faqs";

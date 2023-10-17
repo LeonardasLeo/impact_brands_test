@@ -1,0 +1,30 @@
+.container__subscription{
+  background-color: $black;
+  padding: 20px;
+  color: $white;
+  display: flex;
+  position: relative;
+}
+
+.container__subscription__benefits{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 50px 0 50px 0;
+}
+
+.subscription__benefits{
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  font-size: $small-font;
+}
+
+.subscribe{
+  transform: rotate(-90deg);
+  transform-origin: center center;
+  position: absolute;
+  right: -15%;
+  top: 44%;
+  font-size: $font-22;
+}

@@ -1,0 +1,8 @@
+@media (min-width: $medium-screen) and (max-width: $large-screen-break) {
+  .answer{
+    width: 630px;
+  }
+  .answer, .question{
+    font-size: $small-font-md;
+  }
+}

@@ -1,0 +1,63 @@
+.container__product__blend{
+  padding: $space-y-30;
+  background-color: $beige;
+}
+
+.product__blend__header{
+  font-size: $large-font;
+  font-weight: $font-bold;
+  text-align: center;
+  line-height: $line-height;
+  div:first-of-type{
+    color: $red;
+  }
+}
+
+.product__blend__header--second{
+  margin-top: 30px;
+  font-weight: $font-bold;
+  text-align: center;
+  font-size: $medium-font;
+}
+
+.product__blend__text{
+  font-size: $small-font;
+  margin: $space-y-30;
+  text-align: center;
+}
+
+.ingredients__text{
+  font-size: $small-font;
+  text-align: center;
+}
+
+.container__ingredients{
+  @include center;
+  flex-wrap: wrap;
+  width: 258px;
+  height: 257px;
+  gap: 20px;
+  font-size: $small-font;
+  margin: 20px 40px 20px 40px;
+}
+
+.single__ingredient{
+  text-align: center;
+  width: 112px;
+  img{
+    width: 100%;
+    height: 82px;
+    object-fit: contain;
+  }
+}
+
+.add__to__cart__button{
+  background-color: $black;
+  padding: $padding-10;
+  border-radius: $border-radius;
+  text-align: center;
+  width: 90%;
+  font-size: $font-22;
+  color: $white;
+  margin-top: $margin-10;
+}

@@ -1,0 +1,17 @@
+.navbar{
+  height: 52px;
+  @include center;
+  position: relative;
+  .logo{
+    font-weight: $font-bold;
+    font-size: $medium-font;
+  }
+  .hamburger{
+    position: absolute;
+    left: 20px;
+  }
+}
+
+.nav__routes{
+  display: none;
+}

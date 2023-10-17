@@ -1,0 +1,26 @@
+@media (min-width: $medium-screen) and (max-width: $large-screen-break) {
+  .container__quality{
+    display: flex;
+    justify-content: center;
+    .container__quality__wrapper{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 80%;
+      gap: 50px;
+      font-size: $small-font-md;
+    }
+  }
+}
+
+@media (min-width: $large-screen) {
+  .container__quality{
+    display: flex;
+    justify-content: center;
+  }
+  .container__quality__wrapper{
+    width: $container-width-lg;
+    display: flex;
+    align-items: center;
+  }
+}

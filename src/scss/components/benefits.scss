@@ -1,0 +1,32 @@
+.container__benefits{
+  margin: 40px 10px 40px 10px;
+}
+
+.benefits__header{
+  font-size: $font-22;
+  text-align: center;
+  padding: $padding-10;
+  font-weight: $font-bold;
+}
+
+.container__benefit__list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin: $space-y-30
+}
+
+.benefit{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: $small-font;
+  div{
+    width: 300px;
+  }
+  img{
+    height: $icon-small;
+    width: $icon-small;
+  }
+}
