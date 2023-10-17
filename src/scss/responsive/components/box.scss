@@ -1,0 +1,16 @@
+@media (min-width: $medium-screen) and (max-width: $large-screen-break) {
+  .box{
+    font-size: $small-font-md;
+    height: 118px;
+    width: 150px;
+  }
+}
+
+@media (min-width: $large-screen) {
+  .box{
+    width: 213px;
+    height: 98px;
+    flex-direction: row;
+    padding: $padding-10;
+  }
+}

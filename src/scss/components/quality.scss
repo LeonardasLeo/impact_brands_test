@@ -1,0 +1,15 @@
+.container__quality{
+  background-color: $gray;
+  padding: 40px;
+  text-align: center;
+  .container__quality__wrapper{
+    img{
+      height: 133px;
+      width: 133px;
+    }
+    div{
+      margin-top: $margin-20;
+    }
+  }
+}
+

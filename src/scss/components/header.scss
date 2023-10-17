@@ -1,0 +1,38 @@
+.header{
+  height: 700px;
+  background-image: url("../../../assets/main_img_mobile.png");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.header__text, .header__button{
+  position: absolute;
+  transform: translate(-50%, -50%);
+  color: $white;
+  left: 50%;
+}
+
+.header__text{
+  font-size: $font-40;
+  font-weight: $font-bold;
+  text-align: center;
+  top: 50%;
+}
+
+.header__button{
+  width: 360px;
+  height: 54px;
+  font-size: $font-22;
+  bottom: 5%;
+  background-color: $red;
+  padding: $padding-10;
+  border-radius: $border-radius;
+  border: none;
+}
+
+.background{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
