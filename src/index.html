@@ -17,13 +17,14 @@
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
     />
-    <link rel="stylesheet" href="App.css">
-    <script src="index.js" defer></script>
-    <script src="components/box.js" defer></script>
-    <script src="components/subscriptionBenefit.js" defer></script>
-    <script src="components/singleIngredient.js" defer></script>
-    <script src="components/processStep.js" defer></script>
-    <script src="components/arrow.js" defer></script>
+    <link rel="stylesheet" href="scss/App.css">
+    <script src="js/index.js" defer></script>
+    <script src="js/box.js" defer></script>
+    <script src="js/subscriptionBenefit.js" defer></script>
+    <script src="js/singleIngredient.js" defer></script>
+    <script src="js/processStep.js" defer></script>
+    <script src="js/arrow.js" defer></script>
+    <script src="js/slideOne.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 </head>
 <body>
@@ -98,76 +99,28 @@
             <div>blend</div>
         </div>
         <div class="product__blend__content">
-            <div>
-                <div class="product__blend__header--second">Metabolism boosting</div>
-                <div class="product__blend__text">
-                    Metabolism Boosting These powerful superfoods ignite your metabolism and reduce bloating. They improve
-                    digestion
-                    and deliver the energy you need to get things done. Main Organic Ingiridents:
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <slide-one></slide-one>
+                        </div>
+                        <div class="swiper-slide">
+                            <slide-one></slide-one>
+                        </div>
+                        <div class="swiper-slide">
+                            <slide-one></slide-one>
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-next"></div>
                 </div>
-                <div class="ingredients__text">Main Organic ingredients:</div>
-            </div>
-            <div class="swiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="container__ingredients">
-                            <single-ingredient
-                                    image="https://cdn.shopify.com/s/files/1/0566/8624/8051/files/acai_berry.png?v=1669613777"
-                                    message="organic acai berry"></single-ingredient>
-                            <single-ingredient
-                                    image="https://afyaa.com/images/afyaa-arafit/Acacia-Gum-3.png"
-                                    message="organic acacia gum"></single-ingredient>
-                            <single-ingredient
-                                    image="https://www.cylonies.com/storage/cinnamon/177891-cinnamon-hq-image-free-800x800-540x600.png"
-                                    message="organic ceylon cinnamon bark"></single-ingredient>
-                            <single-ingredient
-                                    image="https://mlqsu18d2ibo.i.optimole.com/cb:y1Qw~4e43b/w:auto/h:auto/q:mauto/f:best/https://www.9amtea.in/wp-content/uploads/2020/02/Loose-Tea-Subhero-1.png"
-                                    message="organic green tea"></single-ingredient>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="container__ingredients">
-                            <single-ingredient
-                                    image="https://cdn.shopify.com/s/files/1/0566/8624/8051/files/acai_berry.png?v=1669613777"
-                                    message="organic acai berry"></single-ingredient>
-                            <single-ingredient
-                                    image="https://afyaa.com/images/afyaa-arafit/Acacia-Gum-3.png"
-                                    message="organic acacia gum"></single-ingredient>
-                            <single-ingredient
-                                    image="https://www.cylonies.com/storage/cinnamon/177891-cinnamon-hq-image-free-800x800-540x600.png"
-                                    message="organic ceylon cinnamon bark"></single-ingredient>
-                            <single-ingredient
-                                    image="https://mlqsu18d2ibo.i.optimole.com/cb:y1Qw~4e43b/w:auto/h:auto/q:mauto/f:best/https://www.9amtea.in/wp-content/uploads/2020/02/Loose-Tea-Subhero-1.png"
-                                    message="organic green tea"></single-ingredient>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="container__ingredients">
-                            <single-ingredient
-                                    image="https://cdn.shopify.com/s/files/1/0566/8624/8051/files/acai_berry.png?v=1669613777"
-                                    message="organic acai berry"></single-ingredient>
-                            <single-ingredient
-                                    image="https://afyaa.com/images/afyaa-arafit/Acacia-Gum-3.png"
-                                    message="organic acacia gum"></single-ingredient>
-                            <single-ingredient
-                                    image="https://www.cylonies.com/storage/cinnamon/177891-cinnamon-hq-image-free-800x800-540x600.png"
-                                    message="organic ceylon cinnamon bark"></single-ingredient>
-                            <single-ingredient
-                                    image="https://mlqsu18d2ibo.i.optimole.com/cb:y1Qw~4e43b/w:auto/h:auto/q:mauto/f:best/https://www.9amtea.in/wp-content/uploads/2020/02/Loose-Tea-Subhero-1.png"
-                                    message="organic green tea"></single-ingredient>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-pagination"></div>
             </div>
             <div class="d-flex justify-content-center">
                 <div class="add__to__cart__button">
                     add to cart
                 </div>
             </div>
-        </div>
     </div>
 </section>
 <section class="container__process">

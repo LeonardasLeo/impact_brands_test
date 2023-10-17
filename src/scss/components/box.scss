@@ -1,4 +1,4 @@
-.box{
+.box {
   height: 118px;
   width: 170px;
   background-color: $beige;
@@ -10,4 +10,15 @@
   justify-content: space-evenly;
   align-items: center;
   text-align: center;
+  img{
+    transition: 0.3s;
+  }
+}
+
+.box:hover{
+  cursor: pointer;
+  img {
+    transition: 0.3s;
+    filter: brightness(0) saturate(100%) invert(14%) sepia(100%) saturate(6700%) hue-rotate(360deg) brightness(90%) contrast(89%);
+  }
 }

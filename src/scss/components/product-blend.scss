@@ -3,6 +3,10 @@
   background-color: $beige;
 }
 
+.product__blend__wrapper{
+  padding: 0 30px;
+}
+
 .product__blend__header{
   font-size: $large-font;
   font-weight: $font-bold;
@@ -56,7 +60,8 @@
   padding: $padding-10;
   border-radius: $border-radius;
   text-align: center;
-  width: 90%;
+  width: 360px;
+  height: 54px;
   font-size: $font-22;
   color: $white;
   margin-top: $margin-10;
