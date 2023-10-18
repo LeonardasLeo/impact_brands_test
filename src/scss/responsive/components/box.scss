@@ -11,6 +11,9 @@
     width: 213px;
     height: 98px;
     flex-direction: row;
-    padding: $padding-10;
+    font-size: $small-font-md;
+    gap: 10px;
+    padding: 18px;
+    text-align: left;
   }
 }

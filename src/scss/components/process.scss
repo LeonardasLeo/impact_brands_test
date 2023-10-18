@@ -2,6 +2,8 @@
   font-size: $large-font;
   font-weight: $font-bold;
   text-align: center;
+  display: flex;
+  justify-content: center;
   line-height: $line-height;
   padding: 0 50px;
 }
@@ -21,9 +23,15 @@
   flex-direction: column;
   gap: 10px;
   margin-top: 40px;
+  padding: 10px;
   div:nth-of-type(2) {
     width: 260px;
   }
+}
+
+.process__step__text{
+  display: flex;
+  flex-direction: column;
 }
 
 .process__step__icon{
