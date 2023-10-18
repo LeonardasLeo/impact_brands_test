@@ -418,10 +418,6 @@ body {
   filter: brightness(0) saturate(100%) invert(14%) sepia(100%) saturate(6700%) hue-rotate(360deg) brightness(90%) contrast(89%);
 }
 
-.box Img {
-  transition: filter 0.3s;
-}
-
 @media (min-width: 768px) {
   .hamburger {
     display: none;
@@ -443,13 +439,13 @@ body {
 }
 @media (min-width: 768px) and (max-width: 992px) {
   .header {
-    background-image: url("../../../../assets/main_img_tablet.jpg");
+    background-image: url("../../../../assets/main_img_tablet.png");
     height: 1024px;
   }
 }
 @media (min-width: 992px) {
   .header {
-    background-image: url("../../../../assets/main_img_desktop.svg");
+    background-image: url("../../../../assets/main_img_desktop.png");
   }
 }
 @media (min-width: 768px) {
