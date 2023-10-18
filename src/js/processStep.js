@@ -13,10 +13,13 @@ class processStepComponent extends HTMLElement {
             `<div class="process__step ${position && 'process__step--right'}">
                  <img class="process__step__icon" src="${this.icon}" alt="">
                  <div class="process__step__wrapper ${position && 'process__step__wrapper--right'}">
-                    <div class="process__step__text ${position && 'process__step__text--right'}">
+                    <div class="process__step__text__wrapper ${position && 'process__step__text--right'}">
                         <div><b>${this.title}</b></div>
-                        <div>
-                            ${this.message}
+                        <div class="process__step__text">
+                            <div>${this.message}</div>
+                            <div class="underline" style="left: ${position && '0'}; right: ${!position && '0'}">
+                                <img src="../../assets/underline_left.svg" alt="">
+                            </div>
                         </div>
                     </div>
                 </div>

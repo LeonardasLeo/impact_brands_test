@@ -26,4 +26,7 @@
     }
     flex: 1;
   }
+  .ingredients__text, .single__ingredient, .product__blend__text{
+    font-size: $small-font-md;
+  }
 }

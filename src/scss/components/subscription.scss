@@ -18,6 +18,9 @@
   align-items: center;
   gap: 25px;
   font-size: $small-font;
+  img{
+    transition: 0.3s;
+  }
 }
 
 .subscribe{
@@ -27,4 +30,12 @@
   right: -15%;
   top: 44%;
   font-size: $font-22;
+}
+
+.subscription__benefits:hover{
+  cursor: pointer;
+  img{
+    scale: 1.2;
+    transition: 0.3s;
+  }
 }
