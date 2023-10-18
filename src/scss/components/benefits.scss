@@ -30,3 +30,11 @@
     width: $icon-small;
   }
 }
+
+.benefit:hover{
+  cursor: pointer;
+  img {
+    transition: 0.3s;
+    filter: brightness(0) saturate(100%) invert(14%) sepia(100%) saturate(6700%) hue-rotate(360deg) brightness(90%) contrast(89%);
+  }
+}

@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     .container__quality__wrapper{
-      display: flex;
+      flex-direction: row;
       align-items: center;
       justify-content: center;
       width: 80%;
@@ -19,8 +19,9 @@
     justify-content: center;
   }
   .container__quality__wrapper{
-    width: $container-width-lg;
-    display: flex;
+    width: 40%;
+    flex-direction: row !important;
     align-items: center;
+    gap: 50px;
   }
 }
