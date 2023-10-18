@@ -25,6 +25,7 @@
     <script src="js/processStep.js" defer></script>
     <script src="js/arrow.js" defer></script>
     <script src="js/slideOne.js" defer></script>
+    <script src="js/productName.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 </head>
 <body>
@@ -40,8 +41,8 @@
 </nav>
 <header class="header">
     <div class="background"></div>
-    <div class="header__text">new year, new "you" with [product name]</div>
-    <button class="header__button">try [product name]</button>
+    <div class="header__text">new year, new "you" with </div>
+    <button class="header__button">try </button>
 </header>
 <section class="container__icon">
     <custom-box icon="../assets/shield_heart_solid.svg" message="Improves sleep"></custom-box>
@@ -95,32 +96,32 @@
 <section class="container__product__blend">
     <div class="product__blend__wrapper">
         <div class="product__blend__header">
-            <div>[product name]</div>
-            <div>blend</div>
+                <span class="product__blend__heard__name"></span>
+                blend
         </div>
         <div class="product__blend__content">
-                <div class="swiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <slide-one></slide-one>
-                        </div>
-                        <div class="swiper-slide">
-                            <slide-one></slide-one>
-                        </div>
-                        <div class="swiper-slide">
-                            <slide-one></slide-one>
-                        </div>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <slide-one></slide-one>
                     </div>
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-pagination"></div>
-                    <div class="swiper-button-next"></div>
+                    <div class="swiper-slide">
+                        <slide-one></slide-one>
+                    </div>
+                    <div class="swiper-slide">
+                        <slide-one></slide-one>
+                    </div>
                 </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
             </div>
-            <div class="d-flex justify-content-center">
-                <div class="add__to__cart__button">
-                    add to cart
-                </div>
-            </div>
+        </div>
+        <div class="d-flex justify-content-center">
+            <button class="add__to__cart__button">
+                add to cart
+            </button>
+        </div>
     </div>
 </section>
 <section class="container__process">
@@ -154,8 +155,8 @@
     <div class="container__question">
         <div>
             <div class="question">
-                <div>
-                    What are the Effective ingredients in [product name]?
+                <div class="question__product__name">
+                    What are the Effective ingredients in
                 </div>
                 <i class="fas fa-chevron-down icon--smallest"></i>
             </div>

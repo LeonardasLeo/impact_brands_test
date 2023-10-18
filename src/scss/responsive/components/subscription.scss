@@ -29,16 +29,6 @@
   }
   .subscription__benefits{
     text-align: center;
-    img{
-      transition: 0.3s;
-    }
-  }
-  .subscription__benefits:hover{
-    cursor: pointer;
-    img{
-      scale: 1.2;
-      transition: 0.3s;
-    }
   }
 }
 

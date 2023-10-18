@@ -5,6 +5,7 @@
     justify-content: flex-end;
     align-items: flex-end;
     width: 100%;
+    position: relative;
   }
 
   .process__step{
@@ -28,7 +29,7 @@
     flex-direction: row;
     text-align: left;
   }
-  .process__step__text{
+  .process__step__text__wrapper{
     width: 45%;
     font-size: $small-font-md;
     min-height: 160px;
@@ -50,6 +51,12 @@
     left: 50%;
     top: 49.5%;
     transform: translate(-50%, -50%);
+  }
+
+  .underline{
+    position: absolute;
+    bottom: -20px;
+    display: block;
   }
 }
 
