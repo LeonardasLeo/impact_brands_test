@@ -18,7 +18,7 @@ class processStepComponent extends HTMLElement {
                         <div class="process__step__text">
                             <div>${this.message}</div>
                             <div class="underline" style="left: ${position && '0'}; right: ${!position && '0'}">
-                                <img src="../../assets/underline_left.svg" alt="">
+                                <img src="../assets/underline.svg" alt="">
                             </div>
                         </div>
                     </div>
