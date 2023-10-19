@@ -1,4 +1,4 @@
-class ingredientComponent extends HTMLElement {
+class ingredient extends HTMLElement {
     constructor() {
         super();
         this.image = this.getAttribute('image');
@@ -12,4 +12,4 @@ class ingredientComponent extends HTMLElement {
     }
 }
 
-customElements.define('single-ingredient', ingredientComponent);
+customElements.define('single-ingredient', ingredient);

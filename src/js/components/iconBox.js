@@ -1,4 +1,4 @@
-class BoxComponent extends HTMLElement {
+class IconBox extends HTMLElement {
     constructor() {
         super();
         this.icon = this.getAttribute('icon');
@@ -13,4 +13,4 @@ class BoxComponent extends HTMLElement {
     }
 }
 
-customElements.define('custom-box', BoxComponent);
+customElements.define('icon-box', IconBox);

@@ -1,4 +1,4 @@
-class slideOneComponent extends HTMLElement {
+class slideOne extends HTMLElement {
     constructor() {
         super();
     }
@@ -32,4 +32,4 @@ class slideOneComponent extends HTMLElement {
     }
 }
 
-customElements.define('slide-one', slideOneComponent);
+customElements.define('slide-one', slideOne);

@@ -1,4 +1,4 @@
-class questionComponent extends HTMLElement {
+class question extends HTMLElement {
     constructor() {
         super();
         this.icon = this.getAttribute('icon');
@@ -15,4 +15,4 @@ class questionComponent extends HTMLElement {
     }
 }
 
-customElements.define('custom-question', questionComponent);
+customElements.define('custom-question', question);
