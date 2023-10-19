@@ -1,4 +1,4 @@
-class arrowComponent extends HTMLElement {
+class arrow extends HTMLElement {
     constructor() {
         super();
         this.left = this.getAttribute('left');
@@ -14,4 +14,4 @@ class arrowComponent extends HTMLElement {
     }
 }
 
-customElements.define('custom-arrow', arrowComponent);
+customElements.define('custom-arrow', arrow);

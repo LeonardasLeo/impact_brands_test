@@ -1,4 +1,4 @@
-class processStepComponent extends HTMLElement {
+class processStep extends HTMLElement {
     constructor() {
         super();
         this.icon = this.getAttribute('icon');
@@ -27,4 +27,4 @@ class processStepComponent extends HTMLElement {
     }
 }
 
-customElements.define('process-step', processStepComponent);
+customElements.define('process-step', processStep);

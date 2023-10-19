@@ -1,4 +1,4 @@
-class subscriptionBenefitElement extends HTMLElement {
+class subscriptionBenefit extends HTMLElement {
     constructor() {
         super();
         this.icon = this.getAttribute('icon');
@@ -14,4 +14,4 @@ class subscriptionBenefitElement extends HTMLElement {
     }
 }
 
-customElements.define('subscription-benefit', subscriptionBenefitElement);
+customElements.define('subscription-benefit', subscriptionBenefit);
