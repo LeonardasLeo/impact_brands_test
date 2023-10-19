@@ -55,6 +55,10 @@
   }
 }
 
+.add__to__cart__button__wrapper{
+  @include center
+}
+
 .add__to__cart__button{
   background-color: $black;
   padding: $padding-10;

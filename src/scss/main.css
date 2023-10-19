@@ -2,6 +2,12 @@ body {
   font-family: "Plus Jakarta Sans", sans-serif;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .header {
   height: 700px;
   background-image: url("../../assets/main_img_mobile.png");
@@ -297,6 +303,12 @@ body {
   width: 100%;
   height: 82px;
   object-fit: contain;
+}
+
+.add__to__cart__button__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .add__to__cart__button {
@@ -644,7 +656,7 @@ body {
   font-size: 14px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   text-align: center;
   padding: 10px;
