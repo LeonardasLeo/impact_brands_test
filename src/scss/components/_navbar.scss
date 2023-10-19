@@ -16,3 +16,25 @@
   display: none;
   gap: 10px;
 }
+
+@media (min-width: $medium-screen) {
+  .hamburger{
+    display: none;
+  }
+  .nav__routes{
+    display: flex;
+    position: absolute;
+  }
+}
+
+@media (min-width: $medium-screen) and (max-width: $large-screen) {
+  .nav__routes{
+    left: 10px;
+  }
+}
+
+@media (min-width: $large-screen) {
+  .nav__routes{
+    left: 20%;
+  }
+}

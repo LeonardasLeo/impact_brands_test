@@ -38,3 +38,38 @@
     transition: 0.3s;
   }
 }
+
+@media (min-width: $medium-screen) {
+  .container__subscription{
+    flex-direction: column;
+  }
+  .container__subscription__benefits{
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .subscription__benefits{
+    flex-direction: column;
+    font-size: $small-font-md;
+  }
+  .subscribe{
+    position: unset;
+    transform: none;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (min-width: $large-screen) {
+  .container__subscription{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+  .container__subscription__benefits{
+    width: $container-width-lg;
+  }
+  .subscription__benefits{
+    text-align: center;
+  }
+}
+

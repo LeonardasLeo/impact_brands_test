@@ -45,3 +45,21 @@
   align-items: center;
 }
 
+@media (min-width: $medium-screen) and (max-width: $large-screen-break) {
+  .swiper{
+    height: 600px;
+  }
+}
+
+@media (min-width: $large-screen) {
+  .swiper{
+    width: $container-width-lg;
+    height: 370px;
+  }
+  .slide__wrapper{
+    flex-direction: row;
+  }
+  .swiper-button-next, .swiper-button-prev{
+    top: 95%;
+  }
+}

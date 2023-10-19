@@ -6,7 +6,7 @@
   font-size: $small-font;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   text-align: center;
   padding: 10px;
@@ -17,5 +17,31 @@
   img{
     transition: 0.3s;
     filter: brightness(0) saturate(100%) invert(14%) sepia(100%) saturate(6700%) hue-rotate(360deg) brightness(90%) contrast(89%);
+  }
+}
+
+.container__icon{
+  @include center;
+  flex-wrap: wrap;
+  margin: $space-y-30;
+  gap: 10px;
+}
+
+@media (min-width: $medium-screen) and (max-width: $large-screen-break) {
+  .box{
+    font-size: $small-font-md;
+    height: 118px;
+    width: 150px;
+  }
+}
+
+@media (min-width: $large-screen) {
+  .box{
+    width: 213px;
+    height: 98px;
+    flex-direction: row;
+    font-size: $small-font-md;
+    padding: 18px;
+    text-align: center;
   }
 }

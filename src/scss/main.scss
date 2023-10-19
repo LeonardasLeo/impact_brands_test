@@ -1,33 +1,21 @@
-body{
+body {
   font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
-@import "variables/colors";
-@import "variables/fonts";
 @import "mixins";
-@import "variables/space";
-@import "variables/other";
+@import "variables/_breakpoints";
+@import "variables/_colors";
+@import "variables/_fonts";
+@import "variables/_space";
+@import "variables/_other";
 
-@import "components/header";
-@import "components/navbar";
-@import "components/subscription";
-@import "components/benefits";
-@import "components/product-blend";
-@import "components/process";
-@import "components/faqs";
-@import "components/swiper";
-@import "components/icons";
-@import "components/quality";
+@import "components/_header";
+@import "components/_navbar";
+@import "components/_subscription";
+@import "components/_benefits";
+@import "components/_product-blend";
+@import "components/_process";
+@import "components/_faqs";
+@import "components/_swiper";
+@import "components/_quality";
 @import "components/box";
-
-@import "responsive/breakpoints";
-@import "responsive/components/navbar";
-@import "responsive/components/header";
-@import "responsive/components/subscription";
-@import "responsive/components/benefits";
-@import "responsive/components/quality";
-@import "responsive/components/product-blend";
-@import "responsive/components/process";
-@import "responsive/components/box";
-@import "responsive/components/faqs";
-@import "responsive/components/swiper";
