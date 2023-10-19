@@ -38,3 +38,35 @@
     filter: brightness(0) saturate(100%) invert(14%) sepia(100%) saturate(6700%) hue-rotate(360deg) brightness(90%) contrast(89%);
   }
 }
+
+@media (min-width: $medium-screen) {
+  .container__benefits{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container__benefit__list{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    gap: 40px;
+  }
+  .benefit{
+    width: 45%;
+    font-size: $small-font-md;
+    img{
+      height: $icon-large;
+      width: $icon-large;
+    }
+  }
+}
+
+@media (min-width: $large-screen) {
+  .container__benefit__list{
+    width: $container-width-lg;
+  }
+  .benefit{
+    width: 28%;
+  }
+}

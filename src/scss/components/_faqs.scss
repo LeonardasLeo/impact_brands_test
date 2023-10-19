@@ -33,3 +33,23 @@
   width: 90%;
   flex-direction: column;
 }
+
+@media (min-width: $medium-screen) and (max-width: $large-screen-break) {
+  .answer, .question{
+    font-size: $small-font-md;
+  }
+}
+
+@media (min-width: $large-screen) {
+  .container__question{
+    width: $container-width-lg;
+  }
+  .container__faq{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .answer, .question{
+    font-size: $small-font-md;
+  }
+}
